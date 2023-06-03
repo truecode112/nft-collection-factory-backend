@@ -37,6 +37,7 @@ lerna-debug.log*
 # env
 .env
 
+default
 # artifacts
 #src/artifacts
 #src/deployments
