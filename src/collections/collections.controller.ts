@@ -16,7 +16,7 @@ export class CollectionsController {
     this.collectionsService.listen();
   }
 
-  @Get()
+  @Get("")
   getCollections() {
     return this.dbService.getAll();
   }
